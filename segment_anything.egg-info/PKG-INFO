@@ -1,7 +1,6 @@
 Metadata-Version: 2.1
 Name: segment_anything
 Version: 1.0
-License-File: LICENSE
 Provides-Extra: all
 Requires-Dist: matplotlib; extra == "all"
 Requires-Dist: pycocotools; extra == "all"

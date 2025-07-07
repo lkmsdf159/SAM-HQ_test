@@ -72,7 +72,7 @@ if __name__ == "__main__":
         # For images contain single object, we suggest to set hq_token_only = True
         # For quantiative evaluation on COCO/YTVOS/DAVIS/UVO/LVIS etc., we set hq_token_only = False
 
-        image = cv2.imread('./demo/input_images/example'+str(i)+'.png')
+        image = cv2.imread("D:\BTech_Dataset_transformed\01\train")
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         predictor.set_image(image)
 

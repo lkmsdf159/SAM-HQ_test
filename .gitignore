@@ -5,3 +5,7 @@ __pycache__/
 # 모델 파일들
 pretrained_checkpoint/*.pth
 *.pth
+*.png
+*.npy
+src/patchcore.egg-info/
+src/patchcore.egg-info/ >> .gitignore.ipynb
